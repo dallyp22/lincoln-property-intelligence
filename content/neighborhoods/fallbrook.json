@@ -1,0 +1,86 @@
+{
+  "slug": "fallbrook",
+  "name": "Fallbrook",
+  "tagline": "Southwest Lincoln's master-planned community with resort-style amenities and strong appreciation",
+  "segment": "Premium",
+  "description": "Fallbrook is a premier master-planned community in southwest Lincoln, Nebraska, known for its thoughtfully designed streetscapes, community amenities, and strong property values. Developed from the mid-2000s onward, Fallbrook features a mix of single-family homes, townhomes, and patio homes arranged around a central community center, pool, and an extensive network of walking trails and green spaces. The neighborhood was designed to foster a sense of community with parks, playgrounds, and common gathering areas integrated throughout. Homes in Fallbrook typically range from $300,000 to $500,000, with larger custom-built residences exceeding that range. The southwest Lincoln location provides easy access to Wilderness Park nature trails, South Pointe Pavilions shopping, and a short commute to downtown Lincoln. Fallbrook consistently ranks among Lincoln's most desirable neighborhoods for families and professionals seeking a modern, amenity-rich lifestyle.",
+  "heroImage": "/images/neighborhoods/fallbrook-hero.jpg",
+  "market": {
+    "medianPrice": 385000,
+    "priceRangeLow": 300000,
+    "priceRangeHigh": 500000,
+    "medianPriceChange": 4.7,
+    "averageDom": 21,
+    "activeInventory": 18,
+    "averagePricePerSqft": 185,
+    "lastUpdated": "2026-02-01"
+  },
+  "housingStock": {
+    "predominantEra": "2005–present",
+    "commonStyles": ["Two-story traditional", "Ranch", "Patio home", "Townhome"],
+    "averageSqft": 2150,
+    "averageLotSize": "0.18 acres",
+    "medianYearBuilt": 2012
+  },
+  "inspectionNotes": [
+    {
+      "category": "Foundation",
+      "note": "Poured concrete foundations throughout the development are in generally good condition. Verify expansion joints and look for signs of lateral pressure in walkout basement configurations, which are common on the neighborhood's rolling terrain."
+    },
+    {
+      "category": "HOA Maintenance",
+      "note": "Fallbrook has an active homeowners association that maintains common areas, the community pool, and shared landscaping. Buyers should review HOA covenants carefully — exterior modification restrictions can affect renovation plans."
+    },
+    {
+      "category": "Roofing",
+      "note": "Architectural shingles are standard. Homes from the first phase of development (2005-2010) may need roof evaluation. The southwest Lincoln exposure can result in more direct hail impact — check for granule loss on south-facing slopes."
+    },
+    {
+      "category": "Plumbing",
+      "note": "Modern PEX plumbing is used in most Fallbrook homes, which is less susceptible to freezing than copper. Earlier-phase homes may have a mix of PEX and copper supply lines."
+    },
+    {
+      "category": "Grading & Drainage",
+      "note": "Some lots adjacent to common green spaces have specific grading requirements maintained by the HOA. Verify that drainage swales and downspout extensions are directing water away from the foundation, particularly on lots that slope toward the home."
+    }
+  ],
+  "schools": [
+    {
+      "name": "Roper Elementary",
+      "type": "elementary",
+      "rating": 8,
+      "district": "Lincoln Public Schools"
+    },
+    {
+      "name": "Pound Middle School",
+      "type": "middle",
+      "rating": 7,
+      "district": "Lincoln Public Schools"
+    },
+    {
+      "name": "Southwest High School",
+      "type": "high",
+      "rating": 8,
+      "district": "Lincoln Public Schools"
+    }
+  ],
+  "commute": {
+    "toDowntown": "16 min",
+    "toUNL": "18 min",
+    "toAirport": "24 min",
+    "nearestInterstate": "US-77 (5 miles)"
+  },
+  "investorMetrics": {
+    "averageRent": 1950,
+    "estimatedCapRate": 4.5,
+    "rentalDemand": "Moderate",
+    "vacancyRate": 3.8
+  },
+  "relatedArticles": [
+    "best-neighborhoods-families-lincoln",
+    "master-planned-communities-lincoln",
+    "southwest-lincoln-development"
+  ],
+  "mapCenter": { "lng": -96.78, "lat": 40.74 },
+  "mapZoom": 14
+}

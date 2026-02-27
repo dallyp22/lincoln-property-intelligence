@@ -1,0 +1,86 @@
+{
+  "slug": "colonial-hills",
+  "name": "Colonial Hills",
+  "tagline": "Affordable south Lincoln ranch homes with strong community roots and steady appreciation",
+  "segment": "Mid-Range",
+  "description": "Colonial Hills is a well-established residential neighborhood in south-central Lincoln, Nebraska, known for its predominantly ranch-style homes, quiet streets, and family-friendly atmosphere. Developed primarily during the 1960s through the 1980s, the neighborhood offers solid mid-range housing with practical floor plans, attached garages, and manageable lot sizes. Colonial Hills sits in a convenient south Lincoln location with easy access to South Street commercial corridors, Van Dorn Street, and a reasonable commute to both downtown and the University of Nebraska–Lincoln campus. Homes here typically range from $180,000 to $280,000, making Colonial Hills one of the most accessible neighborhoods in Lincoln for first-time buyers, young families, and investors seeking properties with reliable rental demand. The neighborhood benefits from mature landscaping, established infrastructure, and a strong sense of residential stability that has attracted homeowners for generations.",
+  "heroImage": "/images/neighborhoods/colonial-hills-hero.jpg",
+  "market": {
+    "medianPrice": 228000,
+    "priceRangeLow": 180000,
+    "priceRangeHigh": 280000,
+    "medianPriceChange": 3.5,
+    "averageDom": 25,
+    "activeInventory": 28,
+    "averagePricePerSqft": 142,
+    "lastUpdated": "2026-02-01"
+  },
+  "housingStock": {
+    "predominantEra": "1960s–1980s",
+    "commonStyles": ["Ranch", "Split-level", "Bi-level"],
+    "averageSqft": 1450,
+    "averageLotSize": "0.19 acres",
+    "medianYearBuilt": 1972
+  },
+  "inspectionNotes": [
+    {
+      "category": "Foundation",
+      "note": "Poured concrete and block foundations from this era are common. Settlement cracks are typical and usually cosmetic. Watch for horizontal cracks in block foundations, which can indicate lateral soil pressure — a more serious concern that may require stabilization."
+    },
+    {
+      "category": "Roofing",
+      "note": "Most ranch homes have simple, low-pitch rooflines that are cost-effective to replace. Expect $6,000–$10,000 for a full reroof. Some homes still have original shake or older-generation shingles that should be budgeted for replacement."
+    },
+    {
+      "category": "HVAC",
+      "note": "Many homes have been updated with mid-efficiency furnaces, but some retain original forced-air systems from the 1970s. Units over 20 years old should be budgeted for replacement. Ductwork in these homes is often in the crawl space or basement ceiling and should be inspected for disconnections or insulation deterioration."
+    },
+    {
+      "category": "Plumbing",
+      "note": "A mix of copper and early PVC drain lines is typical. Some homes may still have galvanized supply lines, which can restrict water flow. A water pressure test during inspection helps identify aging supply pipes that may need replacement."
+    },
+    {
+      "category": "Basements",
+      "note": "Full and partial basements are common. Water intrusion is a known concern in this area of Lincoln — look for evidence of past moisture issues, efflorescence on walls, and verify that sump pump systems are functional with battery backup."
+    }
+  ],
+  "schools": [
+    {
+      "name": "Cavett Elementary",
+      "type": "elementary",
+      "rating": 6,
+      "district": "Lincoln Public Schools"
+    },
+    {
+      "name": "Lux Middle School",
+      "type": "middle",
+      "rating": 6,
+      "district": "Lincoln Public Schools"
+    },
+    {
+      "name": "Lincoln Southeast High School",
+      "type": "high",
+      "rating": 7,
+      "district": "Lincoln Public Schools"
+    }
+  ],
+  "commute": {
+    "toDowntown": "12 min",
+    "toUNL": "14 min",
+    "toAirport": "18 min",
+    "nearestInterstate": "US-77 (3 miles)"
+  },
+  "investorMetrics": {
+    "averageRent": 1250,
+    "estimatedCapRate": 6.2,
+    "rentalDemand": "High",
+    "vacancyRate": 4.5
+  },
+  "relatedArticles": [
+    "first-time-buyer-neighborhoods-lincoln",
+    "ranch-style-homes-lincoln-inspection-guide",
+    "south-lincoln-investment-opportunities"
+  ],
+  "mapCenter": { "lng": -96.69, "lat": 40.77 },
+  "mapZoom": 14
+}

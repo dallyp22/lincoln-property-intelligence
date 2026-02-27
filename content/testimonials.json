@@ -1,0 +1,62 @@
+[
+  {
+    "id": "testimonial-001",
+    "author": "Jason and Emily R.",
+    "neighborhood": "Wilderness Hills",
+    "neighborhoodSlug": "wilderness-hills",
+    "text": "We relocated to Lincoln from Omaha and had no idea which neighborhoods would fit our family. Shawndel's knowledge of Wilderness Hills was incredible — she knew the school zones, the trail system, even which streets had the best lot sizes. When we found our home, Marion walked through and pointed out that the HVAC system was original from 2008 and would need replacement within two years. That saved us from a $7,000 surprise and gave us negotiating leverage. We ended up closing $12,000 below asking price. Best real estate experience we've ever had.",
+    "rating": 5,
+    "date": "2025-11-14",
+    "highlights": ["Neighborhood expertise", "HVAC assessment", "Price negotiation"]
+  },
+  {
+    "id": "testimonial-002",
+    "author": "Marcus T.",
+    "neighborhood": "Near South",
+    "neighborhoodSlug": "near-south",
+    "text": "I bought my first investment duplex in the Near South neighborhood with Marion and Shawndel's help. Marion spotted knob-and-tube wiring in the attic that the previous inspector missed, and he estimated the replumbing cost for the galvanized supply lines before I even had a contractor out. His renovation background meant he could give me realistic rehab numbers rather than guesses. The property cash-flows $400 a month after all expenses, and I'm already looking at a second property with them. If you're investing in Lincoln rental properties, these are the agents you want.",
+    "rating": 5,
+    "date": "2025-09-22",
+    "highlights": ["Investment property", "Electrical assessment", "Renovation budgeting"]
+  },
+  {
+    "id": "testimonial-003",
+    "author": "Linda and Steve M.",
+    "neighborhood": "Country Club",
+    "neighborhoodSlug": "country-club",
+    "text": "We sold our home of 25 years in the Country Club neighborhood. Marion's Polivka Property Assessment identified exactly which updates would give us the best return — we spent $4,500 on interior paint and $8,000 refinishing the hardwood floors, and those two improvements alone helped us sell for $18,000 over our initial expectations. Shawndel handled the staging advice and marketing beautifully. The house sold in 19 days. For a 1940s home in a historic Lincoln neighborhood, that's remarkable. Their knowledge of older homes is unmatched.",
+    "rating": 5,
+    "date": "2025-08-05",
+    "highlights": ["Seller preparation", "Renovation ROI", "Historic home expertise"]
+  },
+  {
+    "id": "testimonial-004",
+    "author": "Priya K.",
+    "neighborhood": "Fallbrook",
+    "neighborhoodSlug": "fallbrook",
+    "text": "As a single buyer navigating the Lincoln market for the first time, I appreciated how thorough and patient Shawndel was throughout the process. She helped me understand the HOA structure in Fallbrook and what it means for long-term costs. During our walkthroughs, Marion checked everything — he noticed a drainage issue in the backyard that sloped toward the foundation and identified early signs of moisture in the basement. The sellers corrected both issues before closing. I feel completely confident in my purchase. Shawndel being from Lincoln made all the difference in understanding the community.",
+    "rating": 5,
+    "date": "2026-01-10",
+    "highlights": ["First-time buyer", "Drainage assessment", "HOA guidance"]
+  },
+  {
+    "id": "testimonial-005",
+    "author": "David and Rachel W.",
+    "neighborhood": "Colonial Hills",
+    "neighborhoodSlug": "colonial-hills",
+    "text": "We were first-time buyers on a tight budget and worried we'd end up with a money pit. Marion and Shawndel showed us several ranch homes in Colonial Hills and Marion was upfront about what each one would need. One house had great curb appeal but Marion found foundation cracks that concerned him — he recommended we pass, and we're grateful he did. The home we chose had solid bones, a newer roof, and a basement that was dry as a bone. Marion even helped us prioritize which updates to do first based on what would add the most value. Four stars only because I wish we'd found them sooner!",
+    "rating": 4,
+    "date": "2025-12-03",
+    "highlights": ["Budget-conscious buying", "Foundation assessment", "Prioritized improvements"]
+  },
+  {
+    "id": "testimonial-006",
+    "author": "Tom H.",
+    "neighborhood": "Near South",
+    "neighborhoodSlug": "near-south",
+    "text": "I own three rental properties in Lincoln and Marion is the only agent I'll work with for investment purchases. His experience actually owning and managing rental properties himself means he thinks like an investor, not just a salesperson. When I was evaluating a four-plex in Near South, he ran the cap rate numbers, identified $22,000 in deferred maintenance I would have missed, and helped me negotiate the price down accordingly. The property is now fully occupied and generating a 7.2% cap rate. Marion and Shawndel understand the Lincoln rental market at a level that most agents simply cannot match.",
+    "rating": 5,
+    "date": "2025-10-18",
+    "highlights": ["Multi-unit investment", "Cap rate analysis", "Deferred maintenance identification"]
+  }
+]

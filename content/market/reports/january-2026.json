@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "period": "January 2026",
+    "slug": "january-2026",
+    "publishedDate": "2026-02-28",
+    "reportDate": "2026-01-31",
+    "authors": ["Marion Polivka", "Shawndel Polivka"],
+    "team": "Home Design Real Estate Group of HOME Real Estate",
+    "description": "Comprehensive residential market intelligence for Lincoln, Nebraska covering January 2026. Includes citywide metrics, 15-neighborhood analysis, investor metrics, rental market data, economic context, and strategic guidance for buyers, sellers, and investors."
+  },
+  "executiveSummary": {
+    "highlights": [
+      { "label": "Median Sale Price", "value": "$294,500", "change": "+2.4% YoY", "direction": "up" },
+      { "label": "Active Listings", "value": "972", "change": "+27.7% YoY", "direction": "up" },
+      { "label": "Days on Market", "value": "26", "change": "+4.0% YoY", "direction": "up" },
+      { "label": "Months of Supply", "value": "2.5", "change": "+25.0% YoY", "direction": "up" },
+      { "label": "30-Year Mortgage", "value": "6.10%", "change": "-0.85pp YoY", "direction": "down" },
+      { "label": "Avg Rent", "value": "$1,335", "change": "+3.35% YoY", "direction": "up" }
+    ],
+    "competitivenessScore": 75,
+    "competitivenessLabel": "Very Competitive",
+    "marketCondition": "Seller's market normalizing with moderate appreciation"
+  },
+  "marketOverview": {
+    "metrics": [
+      { "metric": "Median Home Sale Price", "current": 294500, "priorMonth": 284900, "momChange": 3.4, "priorYear": 287500, "yoyChange": 2.4, "interpretation": "Steady appreciation continuing despite inventory growth" },
+      { "metric": "Average Home Sale Price", "current": 356200, "priorMonth": 337189, "momChange": 5.6, "priorYear": 324661, "yoyChange": 9.7, "interpretation": "Higher-end market segment showing strength" },
+      { "metric": "Median Price Per Sq Ft", "current": 180, "priorMonth": 176, "momChange": 2.3, "priorYear": 172, "yoyChange": 4.7, "interpretation": "Consistent value growth across property sizes" },
+      { "metric": "Total Homes Sold", "current": 252, "priorMonth": 297, "momChange": -15.2, "priorYear": 268, "yoyChange": -6.0, "interpretation": "Seasonal slowdown typical for January" },
+      { "metric": "Active Listings", "current": 972, "priorMonth": 927, "momChange": 4.9, "priorYear": 761, "yoyChange": 27.7, "interpretation": "Significantly more options for buyers than last year" },
+      { "metric": "New Listings", "current": 703, "priorMonth": 385, "momChange": 82.6, "priorYear": 561, "yoyChange": 25.3, "interpretation": "Strong seller confidence entering 2026" },
+      { "metric": "Months of Supply", "current": 2.5, "priorMonth": 2.0, "momChange": 25.0, "priorYear": 2.0, "yoyChange": 25.0, "interpretation": "Still seller-favorable but trending toward balance" },
+      { "metric": "Average Days on Market", "current": 29, "priorMonth": 22, "momChange": 31.8, "priorYear": 27, "yoyChange": 7.4, "interpretation": "Properties taking slightly longer to sell" },
+      { "metric": "Median Days on Market", "current": 26, "priorMonth": 22, "momChange": 18.2, "priorYear": 25, "yoyChange": 4.0, "interpretation": "Competitive properties still moving quickly" },
+      { "metric": "List-to-Sale Price Ratio", "current": 97.9, "priorMonth": 97.9, "momChange": 0.0, "priorYear": 98.6, "yoyChange": -0.7, "interpretation": "Sellers achieving near-asking prices" },
+      { "metric": "Pending Sales", "current": 325, "priorMonth": 202, "momChange": 60.9, "priorYear": 326, "yoyChange": -0.3, "interpretation": "Strong pipeline heading into spring" }
+    ],
+    "additionalIndicators": [
+      { "metric": "% Homes Selling Above Asking", "value": "14-23%", "notes": "Down from peak competition levels" },
+      { "metric": "% Homes with Price Reductions", "value": "22-36%", "notes": "Varies by source; pricing discipline critical" },
+      { "metric": "Cash Buyer %", "value": "40%+", "notes": "Elevated cash activity continues" },
+      { "metric": "Market Competitiveness Score", "value": "75/100", "notes": "Very Competitive per Redfin" }
+    ],
+    "mortgageRates": [
+      { "type": "30-Year Fixed (Freddie Mac)", "rate": 6.10, "priorMonth": 6.20, "yoyChange": -0.85 },
+      { "type": "15-Year Fixed", "rate": 5.49, "priorMonth": 5.60, "yoyChange": -0.63 },
+      { "type": "30-Year Fixed (Bankrate)", "rate": 6.75, "priorMonth": 6.85, "yoyChange": -0.50 }
+    ],
+    "newConstruction": {
+      "listings": 175,
+      "listingsChange": 29.6,
+      "medianPrice": 502970,
+      "medianPriceChange": 2.8,
+      "monthsSupply": 8.4,
+      "existingMonthsSupply": 1.7
+    }
+  },
+  "neighborhoods": [
+    { "name": "Wilderness Hills", "medianPrice": 570650, "yoyChange": 4.5, "dom": 54, "activeListings": 55, "housingType": "SF-New", "characterization": "Premium new construction; strong seller's market", "pricePerSqft": 195, "marketType": "Premium Seller" },
+    { "name": "Fallbrook", "medianPrice": 475000, "yoyChange": 2.0, "dom": 42, "activeListings": 53, "housingType": "SF/TH", "characterization": "Family-friendly; steady demand", "pricePerSqft": 175, "marketType": "Seller" },
+    { "name": "Country Club", "medianPrice": 325000, "yoyChange": 1.8, "dom": 45, "activeListings": 20, "housingType": "SF-Historic", "characterization": "Established area; limited inventory", "pricePerSqft": 165, "marketType": "Seller" },
+    { "name": "Colonial Hills", "medianPrice": 369900, "yoyChange": 2.5, "dom": 38, "activeListings": 16, "housingType": "SF", "characterization": "Stable appreciation; competitive", "pricePerSqft": 170, "marketType": "Seller" },
+    { "name": "Near South", "medianPrice": 220950, "yoyChange": 1.2, "dom": 53, "activeListings": 37, "housingType": "SF/MF", "characterization": "Entry-level opportunity; emerging area", "pricePerSqft": 145, "marketType": "Balanced" },
+    { "name": "University Place", "medianPrice": 214450, "yoyChange": 1.5, "dom": 35, "activeListings": 36, "housingType": "SF/APT", "characterization": "University proximity; rental demand", "pricePerSqft": 140, "marketType": "Balanced" },
+    { "name": "East Campus", "medianPrice": 280000, "yoyChange": 5.4, "dom": 41, "activeListings": 5, "housingType": "SF", "characterization": "Extreme seller's market; minimal inventory", "pricePerSqft": 160, "marketType": "Extreme Seller" },
+    { "name": "Havelock", "medianPrice": 212500, "yoyChange": 1.0, "dom": 48, "activeListings": 24, "housingType": "SF/MF", "characterization": "Affordable option; steady market", "pricePerSqft": 138, "marketType": "Balanced" },
+    { "name": "Highlands", "medianPrice": 286000, "yoyChange": -15.8, "dom": 19, "activeListings": 7, "housingType": "SF/TH", "characterization": "0% vacancy; fastest-moving market", "pricePerSqft": 155, "marketType": "Extreme Seller" },
+    { "name": "Waverly", "medianPrice": 334000, "yoyChange": 24.9, "dom": 53, "activeListings": 67, "housingType": "SF-New", "characterization": "Explosive growth; commuter demand", "pricePerSqft": 165, "marketType": "Balanced" },
+    { "name": "Hickman", "medianPrice": 525000, "yoyChange": 31.2, "dom": 54, "activeListings": 71, "housingType": "SF-New", "characterization": "New construction boom; premium pricing", "pricePerSqft": 180, "marketType": "Balanced" },
+    { "name": "Downtown/Haymarket", "medianPrice": 379950, "yoyChange": -16.3, "dom": 52, "activeListings": 18, "housingType": "CONDO", "characterization": "Condo market correction from 2024 peak", "pricePerSqft": 200, "marketType": "Balanced" },
+    { "name": "Piedmont", "medianPrice": 534995, "yoyChange": 3.5, "dom": 46, "activeListings": 8, "housingType": "SF", "characterization": "Premium area; limited supply", "pricePerSqft": 190, "marketType": "Seller" },
+    { "name": "Bethany", "medianPrice": 255000, "yoyChange": 1.8, "dom": 29, "activeListings": 29, "housingType": "SF", "characterization": "Family-friendly; balanced market", "pricePerSqft": 148, "marketType": "Seller" },
+    { "name": "Capitol View/SSC", "medianPrice": 200000, "yoyChange": 2.0, "dom": 50, "activeListings": 9, "housingType": "SF/MF", "characterization": "Most affordable; value opportunity", "pricePerSqft": 135, "marketType": "Balanced" }
+  ],
+  "neighborhoodRankings": {
+    "largestPriceGains": [
+      { "rank": 1, "name": "Hickman", "yoyChange": 31.2, "driver": "New construction boom" },
+      { "rank": 2, "name": "Waverly", "yoyChange": 24.9, "driver": "Commuter community growth" },
+      { "rank": 3, "name": "East Campus", "yoyChange": 5.4, "driver": "University proximity demand" },
+      { "rank": 4, "name": "Wilderness Hills", "yoyChange": 4.5, "driver": "Premium new construction" },
+      { "rank": 5, "name": "Piedmont", "yoyChange": 3.5, "driver": "Limited supply, high demand" }
+    ],
+    "bestForSellers": ["East Campus", "Highlands", "Bethany", "Colonial Hills", "University Place"],
+    "bestForBuyers": ["Hickman", "Waverly", "Capitol View/SSC", "Near South", "Havelock"],
+    "bestValue": ["Capitol View/SSC", "Near South", "Havelock", "University Place", "Bethany"]
+  },
+  "rentalMarket": {
+    "cityAverage": 1335,
+    "cityAverageChange": 3.35,
+    "vacancyRate": 3.5,
+    "renterOccupied": 51678,
+    "ownerOccupied": 66654,
+    "totalHouseholds": 118332,
+    "byUnitType": [
+      { "type": "Studio", "avgRent": 938, "marketShare": 5, "yoyChange": 1.92 },
+      { "type": "1 Bedroom", "avgRent": 1156, "marketShare": 23, "yoyChange": 0.09 },
+      { "type": "2 Bedroom", "avgRent": 1398, "marketShare": 38, "yoyChange": 0.23 },
+      { "type": "3 Bedroom", "avgRent": 1642, "marketShare": 25, "yoyChange": 0.15 },
+      { "type": "4+ Bedroom", "avgRent": 2049, "marketShare": 9, "yoyChange": null }
+    ],
+    "mostExpensiveAreas": [
+      { "name": "South Salt Creek", "avgRent": 2049 },
+      { "name": "Downtown Lincoln", "avgRent": 1996 },
+      { "name": "Capitol Beach", "avgRent": 1601 },
+      { "name": "Colonial Hills", "avgRent": 1550 },
+      { "name": "Piedmont", "avgRent": 1525 }
+    ],
+    "mostAffordableAreas": [
+      { "name": "Belmont", "avgRent": 1053 },
+      { "name": "College View", "avgRent": 1115 },
+      { "name": "Maple Village-Wedgewood", "avgRent": 1118 },
+      { "name": "Havelock", "avgRent": 1140 },
+      { "name": "University Place", "avgRent": 1165 }
+    ]
+  },
+  "investorMetrics": {
+    "capRates": [
+      { "tier": "Premium", "range": "6.0% - 6.5%", "low": 6.0, "high": 6.5, "neighborhoods": "Wilderness Hills, Piedmont, Downtown" },
+      { "tier": "Mid-Range", "range": "7.0% - 7.5%", "low": 7.0, "high": 7.5, "neighborhoods": "Fallbrook, Colonial Hills, Bethany" },
+      { "tier": "Investment-Grade", "range": "7.5% - 8.5%", "low": 7.5, "high": 8.5, "neighborhoods": "Near South, Havelock, Capitol View" },
+      { "tier": "Multifamily (5+)", "range": "7.2% - 7.8%", "low": 7.2, "high": 7.8, "neighborhoods": "Professional management, economies of scale" }
+    ],
+    "grm": [
+      { "tier": "Premium", "range": "16.0 - 17.5" },
+      { "tier": "Mid-Range", "range": "14.5 - 16.0" },
+      { "tier": "Investment-Grade", "range": "12.0 - 14.5" }
+    ],
+    "scenarioAnalysis": {
+      "purchasePrice": 250000,
+      "downPayment": 50000,
+      "loanAmount": 200000,
+      "mortgageRate": 6.75,
+      "monthlyMortgage": 1297,
+      "estimatedRent": 1398,
+      "monthlyTax": 338,
+      "monthlyInsurance": 164,
+      "monthlyCashFlow": -401,
+      "breakEvenDownPayment": 40
+    },
+    "propertyTax": {
+      "medianAnnual": 4055,
+      "effectiveRate": "1.57-2.2%"
+    },
+    "insurance": {
+      "landlordAnnual": 1961,
+      "homeownerAnnual": 2868
+    },
+    "renovationCosts": [
+      { "project": "Kitchen Remodel", "cost": "$31,500" },
+      { "project": "Bathroom Remodel", "cost": "$12,240" },
+      { "project": "Basement Finishing", "cost": "$29.70/sq ft" },
+      { "project": "Roof Replacement", "cost": "$11.34/sq ft" }
+    ]
+  },
+  "economic": {
+    "employment": {
+      "lincolnUnemployment": 2.8,
+      "nebraskaUnemployment": 3.0,
+      "nationalUnemployment": 4.4,
+      "laborForce": 201200,
+      "laborForceChange": 1.2
+    },
+    "layoffs": [
+      { "employer": "ITC Federal", "jobs": 192, "status": "Immigration processing office" },
+      { "employer": "Neenah Foundry", "jobs": 103, "status": "Plant closure" },
+      { "employer": "Tyson Foods (Lexington)", "jobs": 3212, "status": "Regional impact" }
+    ],
+    "hiring": [
+      { "employer": "Bryan Health", "openings": "175+", "notes": "Healthcare expansion" },
+      { "employer": "Hudl", "openings": "63+", "notes": "International expansion" },
+      { "employer": "Spreetail", "openings": "Multiple", "notes": "Warehouse/logistics at $19/hr" },
+      { "employer": "State of Nebraska", "openings": "200+", "notes": "Government positions" }
+    ],
+    "demographics": {
+      "population": 300619,
+      "projectedPopulation": 304477,
+      "msaPopulation": 350626,
+      "medianHouseholdIncome": 71867,
+      "medianAge": 33.4
+    },
+    "university": {
+      "totalEnrollment": 23952,
+      "enrollmentChange": -0.2,
+      "undergraduate": 19378,
+      "undergraduateChange": 0.4,
+      "freshmen": 4734,
+      "freshmenChange": 1.8,
+      "nebraskaResidents": 16841,
+      "nebraskaChange": 0.8
+    },
+    "infrastructure": [
+      { "project": "Project O Street", "cost": "$35M", "timeline": "Fall 2025 - Fall 2027", "impact": "Downtown revitalization" },
+      { "project": "Lincoln on the Move", "cost": "$144M", "timeline": "8-year program", "impact": "Street investment" },
+      { "project": "South Haymarket Park", "cost": "$25M", "timeline": "Opening 2026", "impact": "Recreation/development" }
+    ],
+    "costOfLiving": {
+      "index": 92.6,
+      "nationalIndex": 100.0,
+      "difference": -7.4,
+      "medianHomePrice": 263400,
+      "nationalMedianHome": 338100,
+      "homePriceDifference": -22.1,
+      "medianRent2BR": 1020,
+      "nationalMedianRent": 1430,
+      "rentDifference": -28.7
+    },
+    "recognition": "Lincoln ranked #6 Happiest City in U.S. (WalletHub, 2025)"
+  },
+  "forecast": {
+    "direction": "Modest Appreciation Continuing",
+    "priceGrowthRange": "2-4%",
+    "sellerGuidance": {
+      "condition": "Favorable — Strategic Listing Window Open",
+      "narrative": "January-February 2026 represents an excellent strategic listing window. With mortgage rates declining and spring buying season approaching, sellers who list now can capture motivated buyers before competition increases. However, pricing discipline is critical — 35.7% of homes are experiencing price drops.",
+      "bestNeighborhoods": ["East Campus", "Highlands", "Bethany", "Colonial Hills", "University Place"],
+      "recommendations": [
+        "Price at or slightly below market for maximum exposure",
+        "Prepare property for immediate showings",
+        "Consider pre-listing inspections to expedite closing",
+        "Be prepared for negotiations on contingencies"
+      ]
+    },
+    "buyerGuidance": {
+      "condition": "Expanding Opportunities",
+      "narrative": "Buyers in January 2026 have significantly more options than a year ago, with inventory up 27.7% and mortgage rates declining toward 6%. Entry-level inventory has improved 6%, providing more choices for first-time buyers. Negotiation room exists on properties on the market 15+ days.",
+      "bestNeighborhoods": ["Capitol View/SSC", "Near South", "Havelock", "University Place", "Bethany"],
+      "recommendations": [
+        "Get pre-approved and be ready to move quickly on well-priced homes",
+        "Consider properties on market 15+ days for negotiation opportunities",
+        "Factor in declining rates — may be worth buying now and refinancing later",
+        "Do not waive inspections without understanding the risks"
+      ]
+    },
+    "investorGuidance": {
+      "condition": "Cap Rates Expanding — Favorable Environment",
+      "narrative": "Multifamily cap rates have expanded to 7.2-7.8%, creating improved opportunities for income-focused investors. The ADU zoning proposal could create additional value-add opportunities if passed. Cash flow remains challenging at current mortgage rates, but appreciation potential and rent growth support long-term holds.",
+      "bestTargets": [
+        "C-Class value-add properties in Capitol View, Havelock",
+        "B-Class stabilized assets in Bethany, Colonial Hills",
+        "Student housing proximity in College View, Near South, Downtown",
+        "Emerging areas: Waverly, Hickman for appreciation plays"
+      ],
+      "recommendations": [
+        "Focus on value-add opportunities where renovation can force appreciation",
+        "Consider higher down payments to improve cash flow",
+        "Monitor ADU zoning proposal for potential opportunities",
+        "Student housing remains stable with 23,952+ UNL enrollment"
+      ]
+    },
+    "upcomingShifters": [
+      { "date": "March 17-18, 2026", "event": "FOMC Meeting", "impact": "Rate decision affects mortgage rates" },
+      { "date": "April 2026", "event": "Spring Selling Season", "impact": "Inventory surge, buyer competition" },
+      { "date": "Summer 2026", "event": "South Haymarket Park Opening", "impact": "Downtown area revitalization" },
+      { "date": "Ongoing", "event": "ADU Zoning Proposal", "impact": "Could expand to 80% of residential parcels" }
+    ]
+  },
+  "nationalComparison": [
+    { "metric": "Median Home Price", "lincoln": "$290K-$294K", "national": "$396,800", "comparison": "27% more affordable" },
+    { "metric": "Days on Market", "lincoln": "23-36 days", "national": "47-78 days", "comparison": "50% faster sales" },
+    { "metric": "Unemployment", "lincoln": "2.8%", "national": "4.4%", "comparison": "Significantly stronger" },
+    { "metric": "Cost of Living", "lincoln": "92.6", "national": "100.0", "comparison": "7.4% below average" }
+  ],
+  "notableTransactions": [
+    { "category": "Market Milestone", "details": "Median sale price $290K", "significance": "55% increase since 2019" },
+    { "category": "Top Multifamily Sale", "details": "$37M (The Sterling Group)", "significance": "Institutional investor confidence" },
+    { "category": "Cash Buyer Activity", "details": "40%+ of transactions", "significance": "Elevated cash/investor presence" },
+    { "category": "New Construction Premium", "details": "Median $467K+", "significance": "58% premium over existing homes" },
+    { "category": "Fastest Sales", "details": "Hot homes in 7 days", "significance": "Competitive segment remains active" }
+  ],
+  "momSummary": [
+    { "indicator": "Median Sale Price", "direction": "up", "magnitude": "+3.4%", "implication": "Continued appreciation" },
+    { "indicator": "Active Listings", "direction": "up", "magnitude": "+4.9%", "implication": "More options for buyers" },
+    { "indicator": "New Listings", "direction": "up", "magnitude": "+82.6%", "implication": "Strong seller confidence" },
+    { "indicator": "Days on Market", "direction": "up", "magnitude": "+18-32%", "implication": "Market normalizing" },
+    { "indicator": "Months of Supply", "direction": "up", "magnitude": "+25%", "implication": "Trending toward balance" },
+    { "indicator": "Mortgage Rates", "direction": "down", "magnitude": "-0.10pp", "implication": "Improving affordability" },
+    { "indicator": "Pending Sales", "direction": "up", "magnitude": "+60.9%", "implication": "Strong spring pipeline" }
+  ],
+  "policy": [
+    { "policy": "ADU Zoning Reform", "status": "Proposed", "impact": "Would allow accessory dwelling units on 80% of single-family lots (vs. current 24%)" },
+    { "policy": "Childcare Zoning", "status": "Approved Jan 2026", "impact": "Eases restrictions on childcare facilities in residential areas" },
+    { "policy": "2021 International Building Codes", "status": "Enforced Jan 30, 2026", "impact": "Updated building safety standards" }
+  ],
+  "sources": [
+    "Great Plains Regional MLS — Lincoln Area Region January 2026 Report",
+    "FRED (Federal Reserve Economic Data) — Active listings, price per sq ft",
+    "Freddie Mac PMMS — Mortgage rate data",
+    "Redfin Lincoln Housing Market",
+    "Zillow Lincoln Home Values",
+    "Realtor.com Lincoln Market Trends",
+    "RentCafe Lincoln Rental Market",
+    "Apartments.com Lincoln",
+    "HUD Fair Market Rents",
+    "BLS Local Area Unemployment Statistics",
+    "U.S. Census Bureau QuickFacts Lincoln",
+    "Lincoln Journal Star",
+    "City of Lincoln Planning & Development",
+    "University of Nebraska-Lincoln Institutional Data",
+    "BiggerPockets Lincoln Market",
+    "Steadily Landlord Insurance",
+    "Neighborhood Scout Lincoln",
+    "AreaVibes Lincoln Neighborhoods"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "near-south",
+  "name": "Near South",
+  "tagline": "Lincoln's most accessible investment zone with strong rental demand and walkable character",
+  "segment": "Investment",
+  "description": "The Near South neighborhood sits just south of downtown Lincoln, Nebraska, roughly bounded by South Street to the south, the Haymarket district to the north, and stretching between 9th and 27th Streets. This is one of Lincoln's most diverse and dynamic residential areas, featuring a mix of smaller single-family homes, duplexes, and multi-unit rental properties built primarily from the early 1900s through the 1950s. The neighborhood's proximity to downtown Lincoln, the University of Nebraska–Lincoln campus, and the Haymarket entertainment district makes it one of the highest-demand rental areas in the city. Home prices typically range from $120,000 to $220,000, offering some of the most accessible entry points for investors in the Lincoln market. Near South's walkability, access to public transit, and growing restaurant and retail presence along South Street have also attracted a new wave of owner-occupants interested in urban living and value-add renovation opportunities. For investors, the combination of affordable acquisition costs and strong rental demand creates compelling cap rates that are hard to match in Lincoln's newer neighborhoods.",
+  "heroImage": "/images/neighborhoods/near-south-hero.jpg",
+  "market": {
+    "medianPrice": 172000,
+    "priceRangeLow": 120000,
+    "priceRangeHigh": 220000,
+    "medianPriceChange": 6.1,
+    "averageDom": 22,
+    "activeInventory": 35,
+    "averagePricePerSqft": 125,
+    "lastUpdated": "2026-02-01"
+  },
+  "housingStock": {
+    "predominantEra": "1900s–1950s",
+    "commonStyles": ["Bungalow", "Four-square", "Duplex", "Small multi-unit", "Cottage"],
+    "averageSqft": 1150,
+    "averageLotSize": "0.12 acres",
+    "medianYearBuilt": 1932
+  },
+  "inspectionNotes": [
+    {
+      "category": "Foundation",
+      "note": "Limestone, rubble stone, and early block foundations are common in pre-1940 homes. Many show signs of age including mortar deterioration and minor settling. Structural evaluation is recommended for any home showing horizontal cracks, bowing walls, or significant water intrusion."
+    },
+    {
+      "category": "Electrical",
+      "note": "Knob-and-tube wiring is still present in a significant number of Near South homes, and many insurance carriers require its removal before coverage. Even homes with updated panels may have original wiring in walls. A full electrical inspection is essential — budget $5,000–$15,000 for rewiring if needed."
+    },
+    {
+      "category": "Plumbing",
+      "note": "Original galvanized steel and cast iron pipes are common. Many properties have been partially replumbed with copper or PEX, but mixed systems can create galvanic corrosion at connection points. Sewer scope is critical — clay tile sewer lines in this area are prone to root intrusion and deterioration."
+    },
+    {
+      "category": "Lead & Asbestos",
+      "note": "The majority of Near South homes predate 1978 and likely contain lead-based paint. Asbestos may be present in insulation, floor tiles, plaster, and siding. Renovation investors should budget for testing and potential abatement, particularly before disturbing walls, floors, or pipe insulation."
+    },
+    {
+      "category": "Structural Modifications",
+      "note": "Many Near South properties have been converted or modified over the decades — enclosed porches, added bedrooms, converted attics, and basement apartments are common. Verify that all modifications were permitted and that structural elements (load-bearing walls, headers, support posts) are properly engineered."
+    },
+    {
+      "category": "Rental Compliance",
+      "note": "Properties used as rentals must comply with Lincoln's rental housing inspection program. Multi-unit properties face additional requirements. Budget for code compliance upgrades including smoke/CO detectors, egress windows in bedrooms, and handrail requirements."
+    }
+  ],
+  "schools": [
+    {
+      "name": "Everett Elementary",
+      "type": "elementary",
+      "rating": 5,
+      "district": "Lincoln Public Schools"
+    },
+    {
+      "name": "Culler Middle School",
+      "type": "middle",
+      "rating": 5,
+      "district": "Lincoln Public Schools"
+    },
+    {
+      "name": "Lincoln High School",
+      "type": "high",
+      "rating": 7,
+      "district": "Lincoln Public Schools"
+    }
+  ],
+  "commute": {
+    "toDowntown": "4 min",
+    "toUNL": "5 min",
+    "toAirport": "12 min",
+    "nearestInterstate": "I-180 (1 mile)"
+  },
+  "investorMetrics": {
+    "averageRent": 1050,
+    "estimatedCapRate": 7.8,
+    "rentalDemand": "Very High",
+    "vacancyRate": 3.9
+  },
+  "relatedArticles": [
+    "lincoln-investment-property-guide",
+    "near-south-rental-market-analysis",
+    "older-home-inspection-checklist-lincoln"
+  ],
+  "mapCenter": { "lng": -96.70, "lat": 40.80 },
+  "mapZoom": 14
+}

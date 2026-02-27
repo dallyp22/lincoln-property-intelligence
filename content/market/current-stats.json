@@ -1,0 +1,75 @@
+{
+  "lastUpdated": "2026-02-01",
+  "lincolnOverall": {
+    "medianPrice": 308000,
+    "medianPriceChange": 4.2,
+    "averageDom": 28,
+    "averageDomChange": -3.4,
+    "activeInventory": 485,
+    "activeInventoryChange": 8.7,
+    "newListings": 312,
+    "newListingsChange": 5.1,
+    "medianPricePerSqft": 172,
+    "closedSales": 287,
+    "closedSalesChange": 2.3,
+    "averageSaleToListRatio": 98.6
+  },
+  "heroStats": [
+    {
+      "label": "Median Home Price",
+      "value": 308000,
+      "format": "currency",
+      "change": 4.2
+    },
+    {
+      "label": "Days on Market",
+      "value": 28,
+      "format": "days",
+      "change": -3.4
+    },
+    {
+      "label": "Active Listings",
+      "value": 485,
+      "format": "number",
+      "change": 8.7
+    }
+  ],
+  "snapshotCards": [
+    {
+      "title": "Median Home Price",
+      "value": 308000,
+      "format": "currency",
+      "changePercent": 4.2,
+      "changeDirection": "up",
+      "period": "vs. last year",
+      "icon": "home"
+    },
+    {
+      "title": "Days on Market",
+      "value": 28,
+      "format": "days",
+      "changePercent": 3.4,
+      "changeDirection": "down",
+      "period": "vs. last year",
+      "icon": "clock"
+    },
+    {
+      "title": "Active Inventory",
+      "value": 485,
+      "format": "number",
+      "changePercent": 8.7,
+      "changeDirection": "up",
+      "period": "vs. last month",
+      "icon": "chart-bar"
+    },
+    {
+      "title": "New Listings",
+      "value": 312,
+      "format": "number",
+      "changePercent": 5.1,
+      "changeDirection": "up",
+      "period": "vs. last month",
+      "icon": "list"
+    }
+  ]
+}

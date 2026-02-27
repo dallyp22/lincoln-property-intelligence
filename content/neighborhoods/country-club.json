@@ -1,0 +1,90 @@
+{
+  "slug": "country-club",
+  "name": "Country Club",
+  "tagline": "Historic charm along Sheridan Boulevard with mature trees and timeless architecture",
+  "segment": "Established",
+  "description": "The Country Club neighborhood is one of Lincoln, Nebraska's most storied residential areas, centered around the historic Sheridan Boulevard corridor and the Lincoln Country Club. Developed primarily between the 1920s and 1960s, this established neighborhood is defined by its mature tree-lined streets, generous lot sizes, and a diverse mix of architectural styles ranging from Tudor and Colonial Revival to mid-century ranch homes. The area offers a unique blend of historic character and central convenience — residents enjoy walkable access to Antelope Park, Sunken Gardens, and a quick commute to both downtown Lincoln and the University of Nebraska–Lincoln campus. Home prices range broadly from $180,000 for smaller bungalows to $350,000 or more for fully updated larger homes on premium lots along Sheridan Boulevard. The Country Club neighborhood appeals to buyers who value architectural character, established landscaping, and a central Lincoln location with a strong sense of community history.",
+  "heroImage": "/images/neighborhoods/country-club-hero.jpg",
+  "market": {
+    "medianPrice": 265000,
+    "priceRangeLow": 180000,
+    "priceRangeHigh": 350000,
+    "medianPriceChange": 3.8,
+    "averageDom": 32,
+    "activeInventory": 31,
+    "averagePricePerSqft": 155,
+    "lastUpdated": "2026-02-01"
+  },
+  "housingStock": {
+    "predominantEra": "1920s–1960s",
+    "commonStyles": ["Tudor Revival", "Colonial Revival", "Ranch", "Cape Cod", "Bungalow"],
+    "averageSqft": 1850,
+    "averageLotSize": "0.25 acres",
+    "medianYearBuilt": 1948
+  },
+  "inspectionNotes": [
+    {
+      "category": "Foundation",
+      "note": "Older block and poured concrete foundations are common. Many homes show some degree of settlement cracking — the key is distinguishing cosmetic hairline cracks from structural movement. Horizontal cracks in block foundations warrant professional structural evaluation."
+    },
+    {
+      "category": "Electrical",
+      "note": "Homes from the 1920s-1940s may still have original knob-and-tube wiring or early Romex installations. Many have been partially updated but may have a mix of old and new wiring. Full panel and circuit evaluation is strongly recommended before purchase."
+    },
+    {
+      "category": "Plumbing",
+      "note": "Original galvanized steel supply lines are still present in many homes and can corrode from the inside, reducing water pressure and flow. Sewer lines may be clay tile or cast iron — a sewer scope inspection is essential for homes that haven't had line replacement."
+    },
+    {
+      "category": "Roofing & Insulation",
+      "note": "Roof pitches vary considerably with architectural style. Tudor and Colonial homes often have complex rooflines with multiple valleys that require careful flashing inspection. Many attics in pre-1960 homes have inadequate insulation by modern standards."
+    },
+    {
+      "category": "Windows & Doors",
+      "note": "Original wood windows in well-maintained homes can still function effectively but are often single-pane. Storm windows are common additions. Budget for window replacement or restoration when evaluating older homes — costs range from $8,000 to $20,000 depending on the number of windows."
+    },
+    {
+      "category": "Lead & Asbestos",
+      "note": "Homes built before 1978 may contain lead-based paint, and pre-1980 homes may have asbestos in floor tiles, pipe insulation, or siding. Disclosure is required, but testing before renovation is strongly advised to avoid costly abatement surprises."
+    }
+  ],
+  "schools": [
+    {
+      "name": "Randolph Elementary",
+      "type": "elementary",
+      "rating": 7,
+      "district": "Lincoln Public Schools"
+    },
+    {
+      "name": "Irving Middle School",
+      "type": "middle",
+      "rating": 7,
+      "district": "Lincoln Public Schools"
+    },
+    {
+      "name": "Lincoln High School",
+      "type": "high",
+      "rating": 7,
+      "district": "Lincoln Public Schools"
+    }
+  ],
+  "commute": {
+    "toDowntown": "7 min",
+    "toUNL": "8 min",
+    "toAirport": "15 min",
+    "nearestInterstate": "I-180 (2 miles)"
+  },
+  "investorMetrics": {
+    "averageRent": 1350,
+    "estimatedCapRate": 5.8,
+    "rentalDemand": "High",
+    "vacancyRate": 4.1
+  },
+  "relatedArticles": [
+    "historic-homes-lincoln-what-to-know",
+    "country-club-neighborhood-guide",
+    "renovation-roi-older-lincoln-homes"
+  ],
+  "mapCenter": { "lng": -96.70, "lat": 40.82 },
+  "mapZoom": 14
+}

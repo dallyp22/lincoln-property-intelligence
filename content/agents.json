@@ -1,0 +1,68 @@
+{
+  "team": {
+    "name": "Home Design Real Estate Group of HOME Real Estate",
+    "brokerage": "HOME Real Estate",
+    "positioning": "We See What Others Miss",
+    "tagline": "Inspection-Informed Real Estate Advisory",
+    "combinedExperience": "75+ years",
+    "structure": "Husband-and-wife team",
+    "serviceAreas": ["Lincoln, NE", "Omaha, NE", "Eastern Nebraska"],
+    "website": "https://lincolnpropertyintelligence.com"
+  },
+  "agents": [
+    {
+      "name": "Marion Polivka",
+      "slug": "marion-polivka",
+      "title": "Real Estate Agent — HOME Real Estate — Home Design Real Estate Group",
+      "phone": "402-309-3134",
+      "phoneFormatted": "(402) 309-3134",
+      "phoneTel": "tel:+14023093134",
+      "email": "marion@lincolnpropertyintelligence.com",
+      "website": "https://marionpolivka.homerealestate.com/",
+      "photo": "/images/agents/marion-polivka.jpg",
+      "shortBio": "Certified home inspector training. Hands-on construction and renovation experience across multiple investment properties.",
+      "fullBio": "My love for real estate began early, through time spent renovating and caring for rental homes. That interest grew into hands-on construction experience and years of buying, remodeling, renting, and selling properties of my own. Along with my wife Shawndel, I'm part of the Home Design Real Estate Group of HOME Real Estate. Our team brings over 75 years of combined real estate experience. My experience, complemented by certified home inspector training, provides added perspective to help protect and guide buyers and sellers.",
+      "credentials": [
+        "Certified Home Inspector Training",
+        "Personal renovation and investment property experience",
+        "Hands-on construction background",
+        "Years of buying, remodeling, renting, and selling properties"
+      ],
+      "specialties": [
+        "Home Inspections & Structural Assessment",
+        "Investment Property Analysis",
+        "Renovation Planning & ROI Estimation",
+        "Construction Quality Evaluation",
+        "Buyer Representation",
+        "Seller Property Preparation"
+      ]
+    },
+    {
+      "name": "Shawndel Polivka",
+      "slug": "shawndel-polivka",
+      "title": "Real Estate Agent — HOME Real Estate — Home Design Real Estate Group",
+      "phone": "402-429-1523",
+      "phoneFormatted": "(402) 429-1523",
+      "phoneTel": "tel:+14024291523",
+      "email": "shawndel@lincolnpropertyintelligence.com",
+      "website": "https://shawndel.homerealestate.com/",
+      "photo": "/images/agents/shawndel-polivka.jpg",
+      "shortBio": "Born and raised in Lincoln, NE. Multiple personal home renovations and updates. Community-focused advisory approach.",
+      "fullBio": "Born and raised in Lincoln, Nebraska – my husband and I have now renovated and updated our own beautiful spaces for our family several times over! Each home opportunity presented us with new experiences, challenges and valued learning that I feel can assist other buyers and sellers that may find themselves in similar situations. Whether you are looking to sell your existing home or purchase your dream home, as your real estate professional I have the tools and expertise required to make your home process as smooth as possible! I am committed to building our local communities, one story at a time.",
+      "credentials": [
+        "Lincoln, NE native",
+        "Multiple personal home renovations",
+        "Community-focused advisory approach",
+        "Extensive local market knowledge"
+      ],
+      "specialties": [
+        "First-Time Home Buyers",
+        "Home Renovation & Design Advisory",
+        "Lincoln Neighborhood Expertise",
+        "Seller Representation",
+        "Community Engagement",
+        "Relocation Assistance"
+      ]
+    }
+  ]
+}

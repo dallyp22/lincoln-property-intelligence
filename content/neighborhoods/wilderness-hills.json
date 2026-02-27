@@ -1,0 +1,86 @@
+{
+  "slug": "wilderness-hills",
+  "name": "Wilderness Hills",
+  "tagline": "South Lincoln's premier family community with newer construction and top-rated schools",
+  "segment": "Premium",
+  "description": "Wilderness Hills is one of Lincoln, Nebraska's most sought-after residential neighborhoods, located in the rapidly growing southern corridor of the city. Developed primarily from the early 2000s through the present, this master-planned community features newer construction homes on generous lots with modern floor plans, energy-efficient systems, and contemporary finishes. The neighborhood is anchored by excellent Lincoln Public Schools attendance zones, extensive trail networks, and proximity to shopping and dining along South 27th Street and Pine Lake Road. Families are drawn to Wilderness Hills for its combination of suburban tranquility, strong property values, and convenient access to the rest of Lincoln. Home prices typically range from $350,000 to $550,000 or higher, reflecting the premium quality of construction and desirability of the location.",
+  "heroImage": "/images/neighborhoods/wilderness-hills-hero.jpg",
+  "market": {
+    "medianPrice": 425000,
+    "priceRangeLow": 350000,
+    "priceRangeHigh": 550000,
+    "medianPriceChange": 5.1,
+    "averageDom": 18,
+    "activeInventory": 24,
+    "averagePricePerSqft": 195,
+    "lastUpdated": "2026-02-01"
+  },
+  "housingStock": {
+    "predominantEra": "2000s–present",
+    "commonStyles": ["Two-story traditional", "Ranch", "Reverse 1.5-story", "Split-level"],
+    "averageSqft": 2280,
+    "averageLotSize": "0.22 acres",
+    "medianYearBuilt": 2010
+  },
+  "inspectionNotes": [
+    {
+      "category": "Foundation",
+      "note": "Newer poured concrete foundations are generally in excellent condition. Some homes built in the early 2000s may show minor settlement cracks that are cosmetic rather than structural, but should be monitored."
+    },
+    {
+      "category": "Roofing",
+      "note": "Most homes feature architectural shingle roofs with 25-30 year warranties. Homes built before 2010 may be approaching their first roof replacement cycle. Hail damage from Nebraska storms is common — verify insurance claims history."
+    },
+    {
+      "category": "HVAC",
+      "note": "High-efficiency furnaces and central air are standard. Homes from the early 2000s may have original HVAC units nearing end of useful life (15-20 year range). Newer homes often include two-zone systems."
+    },
+    {
+      "category": "Drainage",
+      "note": "The neighborhood was developed with modern stormwater management. Sump pumps are standard in most basements. Verify sump pump operation and check for battery backup systems, especially on lower-lying lots."
+    },
+    {
+      "category": "Energy Efficiency",
+      "note": "Construction codes improved significantly after 2009. Homes built after that date typically feature better insulation, low-E windows, and sealed ductwork. Earlier homes may benefit from insulation upgrades in the attic."
+    }
+  ],
+  "schools": [
+    {
+      "name": "Wilderness Hills Elementary",
+      "type": "elementary",
+      "rating": 8,
+      "district": "Lincoln Public Schools"
+    },
+    {
+      "name": "Pound Middle School",
+      "type": "middle",
+      "rating": 7,
+      "district": "Lincoln Public Schools"
+    },
+    {
+      "name": "Southwest High School",
+      "type": "high",
+      "rating": 8,
+      "district": "Lincoln Public Schools"
+    }
+  ],
+  "commute": {
+    "toDowntown": "18 min",
+    "toUNL": "20 min",
+    "toAirport": "22 min",
+    "nearestInterstate": "US-77 (4 miles)"
+  },
+  "investorMetrics": {
+    "averageRent": 2150,
+    "estimatedCapRate": 4.8,
+    "rentalDemand": "Moderate",
+    "vacancyRate": 3.2
+  },
+  "relatedArticles": [
+    "best-neighborhoods-families-lincoln",
+    "new-construction-vs-existing-homes-lincoln",
+    "south-lincoln-growth-corridor"
+  ],
+  "mapCenter": { "lng": -96.71, "lat": 40.73 },
+  "mapZoom": 14
+}
