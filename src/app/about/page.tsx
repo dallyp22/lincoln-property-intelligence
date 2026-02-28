@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { getAgentData } from '@/lib/data/agents';
 import { SITE, TEAM } from '@/lib/constants';
 import { PersonJsonLd } from '@/components/seo/PersonJsonLd';
+import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card, CardContent } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
@@ -19,6 +20,12 @@ export async function generateMetadata(): Promise<Metadata> {
       description:
         'Meet Marion and Shawndel Polivka — inspection-informed real estate advisory for Lincoln, Nebraska.',
       url: `${SITE.url}/about`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'About the Polivkas | Lincoln Property Intelligence',
+      description:
+        'Meet Marion and Shawndel Polivka — 75+ years combined experience in Lincoln, Nebraska real estate.',
     },
   };
 }
@@ -42,6 +49,13 @@ export default async function AboutPage() {
           knowsAbout={agent.specialties}
         />
       ))}
+
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: SITE.url, position: 1 },
+          { name: 'About', url: `${SITE.url}/about`, position: 2 },
+        ]}
+      />
 
       <Breadcrumbs />
 

@@ -16,6 +16,7 @@ export const TEAM = {
   combinedExperience: '75+ years',
   structure: 'Husband-and-wife team',
   serviceAreas: ['Lincoln, NE', 'Omaha, NE', 'Eastern Nebraska'],
+  zipCodes: ['68502', '68503', '68506', '68508', '68510', '68516', '68520', '68521', '68526', '68528'],
 } as const;
 
 export const AGENTS = {
@@ -34,6 +35,11 @@ export const AGENTS = {
       'Personal renovation and investment property experience',
       'Hands-on construction background',
     ],
+    directoryProfiles: [
+      'https://marionpolivka.homerealestate.com/',
+      'https://www.linkedin.com/in/marion-polivka/',
+      'https://www.homerelincoln.com/agents/1764951/Marion+Polivka',
+    ],
   },
   shawndel: {
     name: 'Shawndel Polivka',
@@ -49,6 +55,15 @@ export const AGENTS = {
       'Lincoln native',
       'Multiple personal home renovations',
       'Community-focused advisory approach',
+    ],
+    directoryProfiles: [
+      'https://shawndel.homerealestate.com/',
+      'https://www.realtor.com/realestateagents/5682dfcb7e54f70100200c8f',
+      'https://www.zillow.com/profile/shawndel',
+      'https://www.homes.com/real-estate-agents/shawndel-polivka/mqrwebj/',
+      'https://www.facebook.com/buyandsellwithShawndel/',
+      'https://www.linkedin.com/in/shawndel-polivka-crs-gri-85107539/',
+      'https://www.instagram.com/shawndel/',
     ],
   },
 } as const;

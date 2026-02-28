@@ -22,7 +22,7 @@ export function FAQBlock({ faqs }: FAQBlockProps) {
             id="faq-heading"
             className="mt-2 font-serif text-3xl font-bold text-primary-900 sm:text-4xl"
           >
-            Frequently Asked Questions
+            Lincoln Real Estate: Frequently Asked Questions
           </h2>
           <p className="mt-4 text-base text-primary-600">
             Common questions about buying, selling, and investing in Lincoln,

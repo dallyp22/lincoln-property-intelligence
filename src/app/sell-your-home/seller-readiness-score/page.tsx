@@ -25,6 +25,12 @@ export async function generateMetadata(): Promise<Metadata> {
       url: `${SITE.url}/sell-your-home/seller-readiness-score`,
       type: 'website',
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Seller Readiness Score | Lincoln Property Intelligence',
+      description:
+        'Free 5-minute assessment to discover your Lincoln, NE home\'s market readiness score.',
+    },
     alternates: {
       canonical: `${SITE.url}/sell-your-home/seller-readiness-score`,
     },

@@ -6,6 +6,7 @@ interface PersonJsonLdProps {
   jobTitle: string;
   phone: string;
   url: string;
+  email?: string;
   description?: string;
   image?: string;
   sameAs?: string[];
@@ -17,6 +18,7 @@ export function PersonJsonLd({
   jobTitle,
   phone,
   url,
+  email,
   description,
   image,
   sameAs,
@@ -30,6 +32,7 @@ export function PersonJsonLd({
         jobTitle,
         telephone: phone,
         url,
+        ...(email && { email }),
         ...(description && { description }),
         ...(image && { image }),
         ...(sameAs && { sameAs }),

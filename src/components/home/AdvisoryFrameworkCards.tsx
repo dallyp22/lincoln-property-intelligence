@@ -37,7 +37,7 @@ const frameworkItems: FrameworkItem[] = [
     title: 'Seller Readiness Score',
     description:
       'Know exactly where your home stands before listing. We evaluate curb appeal, interior condition, mechanical systems, and market positioning to produce a readiness score with actionable improvement recommendations ranked by return on investment.',
-    href: '/polivka-property-assessment',
+    href: '/sell-your-home/seller-readiness-score',
     ctaLabel: 'Get Your Readiness Score',
     icon: (
       <svg
@@ -60,7 +60,7 @@ const frameworkItems: FrameworkItem[] = [
     title: 'Investor Property Evaluation',
     description:
       'Make data-driven investment decisions. Our evaluation analyzes cap rates, rental demand, vacancy trends, deferred maintenance costs, and neighborhood trajectory to help you identify properties with the strongest cash-flow and appreciation potential in the Lincoln market.',
-    href: '/polivka-property-assessment',
+    href: '/invest-in-lincoln/investment-calculator',
     ctaLabel: 'Evaluate an Investment',
     icon: (
       <svg

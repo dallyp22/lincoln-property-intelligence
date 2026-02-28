@@ -7,6 +7,7 @@ import { getAllArticles, getArticleBySlug } from '@/lib/data/articles';
 import { SITE, AGENTS } from '@/lib/constants';
 import { ArticleJsonLd } from '@/components/seo/ArticleJsonLd';
 import { FAQPageJsonLd } from '@/components/seo/FAQPageJsonLd';
+import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
@@ -47,6 +48,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         ? [`${SITE.url}${frontmatter.featuredImage}`]
         : undefined,
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${frontmatter.title} | Lincoln Property Intelligence`,
+      description: frontmatter.description,
+    },
   };
 }
 
@@ -84,6 +90,14 @@ export default async function ArticlePage({ params }: PageProps) {
       {frontmatter.faqSchema && frontmatter.faqSchema.length > 0 && (
         <FAQPageJsonLd faqs={frontmatter.faqSchema} />
       )}
+
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: SITE.url, position: 1 },
+          { name: 'Ask a Realtor', url: `${SITE.url}/ask-a-realtor`, position: 2 },
+          { name: frontmatter.title, url: `${SITE.url}/ask-a-realtor/${frontmatter.slug}`, position: 3 },
+        ]}
+      />
 
       <Breadcrumbs
         items={[

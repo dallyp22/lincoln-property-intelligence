@@ -104,6 +104,66 @@ export function Footer() {
             <p className="mt-4 text-xs text-primary-400">
               Service Areas: {TEAM.serviceAreas.join(' | ')}
             </p>
+            <p className="mt-1 text-xs text-primary-400">
+              Serving Lincoln ZIP codes: {TEAM.zipCodes.join(', ')}
+            </p>
+
+            {/* Directory Profiles */}
+            <div className="mt-4">
+              <p className="text-xs font-semibold uppercase tracking-wider text-primary-400">
+                Find Us On
+              </p>
+              <div className="mt-2 flex flex-wrap gap-3">
+                <a
+                  href="https://www.zillow.com/profile/shawndel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-primary-300 transition-colors hover:text-accent-400"
+                >
+                  Zillow
+                </a>
+                <a
+                  href="https://www.realtor.com/realestateagents/5682dfcb7e54f70100200c8f"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-primary-300 transition-colors hover:text-accent-400"
+                >
+                  Realtor.com
+                </a>
+                <a
+                  href="https://www.homes.com/real-estate-agents/shawndel-polivka/mqrwebj/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-primary-300 transition-colors hover:text-accent-400"
+                >
+                  Homes.com
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/marion-polivka/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-primary-300 transition-colors hover:text-accent-400"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="https://www.facebook.com/buyandsellwithShawndel/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-primary-300 transition-colors hover:text-accent-400"
+                >
+                  Facebook
+                </a>
+                <a
+                  href="https://www.instagram.com/shawndel/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-primary-300 transition-colors hover:text-accent-400"
+                >
+                  Instagram
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Column 4: Newsletter */}
@@ -125,7 +185,7 @@ export function Footer() {
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-xs text-primary-400">
-              &copy; {currentYear} {SITE.name}. All rights reserved. Brokered by{' '}
+              &copy; {currentYear} {SITE.name}. Real Estate Agents in Lincoln, NE &middot; Brokered by{' '}
               {TEAM.brokerage}.
             </p>
             <p className="text-xs text-primary-400">

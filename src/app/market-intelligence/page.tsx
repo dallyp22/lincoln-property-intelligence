@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { SITE, AGENTS } from '@/lib/constants';
+import { SITE, TEAM, AGENTS } from '@/lib/constants';
+import { ArticleJsonLd } from '@/components/seo/ArticleJsonLd';
+import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
@@ -16,11 +18,33 @@ export const metadata: Metadata = {
       'Data-driven market reports and neighborhood analytics for Lincoln, Nebraska real estate.',
     url: `${SITE.url}/market-intelligence`,
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Lincoln Market Intelligence | Lincoln Property Intelligence',
+    description:
+      'Monthly market reports and neighborhood analytics for Lincoln, Nebraska real estate.',
+  },
 };
 
 export default function MarketIntelligencePage() {
   return (
     <>
+      <ArticleJsonLd
+        title="Lincoln Market Intelligence"
+        description="Monthly market reports, neighborhood analytics, and data-driven real estate intelligence for Lincoln, Nebraska."
+        url="/market-intelligence"
+        datePublished="2026-01-15"
+        dateModified="2026-02-27"
+        authorName={TEAM.name}
+        type="Article"
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: SITE.url, position: 1 },
+          { name: 'Market Intelligence', url: `${SITE.url}/market-intelligence`, position: 2 },
+        ]}
+      />
+
       <Breadcrumbs />
 
       {/* Hero */}
@@ -44,7 +68,7 @@ export default function MarketIntelligencePage() {
               <div className="relative h-48 w-48 overflow-hidden rounded-2xl border-2 border-white/10 lg:h-56 lg:w-56">
                 <Image
                   src="/images/team/marion-shawndel-polivka.jpg"
-                  alt={`${AGENTS.marion.name} and ${AGENTS.shawndel.name}`}
+                  alt={`${AGENTS.marion.name} and ${AGENTS.shawndel.name} — Real Estate Agents, Lincoln Nebraska`}
                   fill
                   className="object-cover"
                   sizes="224px"

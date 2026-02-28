@@ -74,13 +74,14 @@ export function Accordion({ items, className, allowMultiple = false }: Accordion
               aria-labelledby={triggerId}
               className={cn(
                 'overflow-hidden transition-all duration-300 ease-in-out',
-                isOpen ? 'max-h-96 pb-5' : 'max-h-0'
+                isOpen ? 'max-h-[32rem] pb-5' : 'max-h-0'
               )}
               hidden={!isOpen}
             >
-              <p className="text-sm leading-relaxed text-primary-600">
-                {item.answer}
-              </p>
+              <div
+                className="text-sm leading-relaxed text-primary-600 [&_a]:text-accent-500 [&_a]:font-medium [&_a]:underline"
+                dangerouslySetInnerHTML={{ __html: item.answer }}
+              />
             </div>
           </div>
         );

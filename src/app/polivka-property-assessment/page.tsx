@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { SITE, TEAM } from '@/lib/constants';
 import { ArticleJsonLd } from '@/components/seo/ArticleJsonLd';
+import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
@@ -16,6 +17,12 @@ export async function generateMetadata(): Promise<Metadata> {
       description:
         'A comprehensive property evaluation combining inspection expertise with market data for Lincoln, NE.',
       url: `${SITE.url}/polivka-property-assessment`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Polivka Property Assessment | Lincoln Property Intelligence',
+      description:
+        'Comprehensive property evaluation combining inspection expertise with market data for Lincoln, NE.',
     },
   };
 }
@@ -116,6 +123,13 @@ export default function AssessmentPage() {
         dateModified="2026-02-27"
         authorName={TEAM.name}
         type="Article"
+      />
+
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: SITE.url, position: 1 },
+          { name: 'Polivka Property Assessment', url: `${SITE.url}/polivka-property-assessment`, position: 2 },
+        ]}
       />
 
       <Breadcrumbs />

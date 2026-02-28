@@ -83,7 +83,7 @@ export function AboutSection() {
             <div className="aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
                 src="/images/team/marion-shawndel-polivka.jpg"
-                alt={`${AGENTS.marion.name} and ${AGENTS.shawndel.name} — ${TEAM.name}`}
+                alt={`${AGENTS.marion.name} and ${AGENTS.shawndel.name} — ${TEAM.name}, Lincoln Nebraska`}
                 width={800}
                 height={600}
                 className="h-full w-full object-cover"
@@ -111,9 +111,10 @@ export function AboutSection() {
               <span className="font-medium text-primary-800">
                 {TEAM.name}
               </span>
-              . Their unique combination of certified inspector training,
-              hands-on renovation experience, and deep Lincoln roots means
-              they see things in properties that other agents simply cannot.
+              , serving Lincoln, NE and greater Nebraska. Their unique
+              combination of certified inspector training, hands-on renovation
+              experience, and deep Lincoln roots means they see things in
+              properties that other agents simply cannot.
             </p>
 
             {/* Credentials */}

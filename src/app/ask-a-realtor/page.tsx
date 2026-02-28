@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getAllArticles } from '@/lib/data/articles';
 import { SITE } from '@/lib/constants';
+import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card, CardContent } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
@@ -16,6 +17,12 @@ export const metadata: Metadata = {
     description:
       'Expert real estate Q&A for Lincoln, Nebraska from the Polivka team.',
     url: `${SITE.url}/ask-a-realtor`,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ask a Realtor | Lincoln Property Intelligence',
+    description:
+      'Expert real estate Q&A for Lincoln, Nebraska from Marion & Shawndel Polivka.',
   },
 };
 
@@ -32,6 +39,13 @@ export default async function AskARealtorPage() {
 
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: SITE.url, position: 1 },
+          { name: 'Ask a Realtor', url: `${SITE.url}/ask-a-realtor`, position: 2 },
+        ]}
+      />
+
       <Breadcrumbs />
 
       {/* Hero */}

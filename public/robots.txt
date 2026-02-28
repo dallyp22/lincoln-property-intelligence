@@ -13,4 +13,7 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://lincolnpropertyintelligence.com/sitemap.xml

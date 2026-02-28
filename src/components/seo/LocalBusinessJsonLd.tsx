@@ -15,10 +15,12 @@ export function LocalBusinessJsonLd({ name }: LocalBusinessJsonLdProps) {
         description: SITE.description,
         url: SITE.url,
         telephone: AGENTS.marion.phone,
+        ...('email' in AGENTS.marion && { email: (AGENTS.marion as Record<string, unknown>).email }),
         address: {
           '@type': 'PostalAddress',
           addressLocality: 'Lincoln',
           addressRegion: 'NE',
+          postalCode: '68502',
           addressCountry: 'US',
         },
         areaServed: TEAM.serviceAreas.map((area) => ({

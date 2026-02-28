@@ -4,6 +4,7 @@ import { SITE } from '@/lib/constants';
 import { getMarketReport } from '@/lib/data/market';
 import { formatCurrency, formatPercent } from '@/lib/utils';
 import { JsonLd } from '@/components/seo/JsonLd';
+import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { Card, CardContent } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
@@ -29,6 +30,11 @@ export async function generateMetadata(): Promise<Metadata> {
       type: 'article',
       publishedTime: report.meta.publishedDate,
       authors: report.meta.authors,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `Lincoln Market Report — ${report.meta.period}`,
+      description: report.meta.description,
     },
   };
 }
@@ -146,6 +152,14 @@ export default async function JanuaryReport() {
             'Unemployment Rate',
           ],
         }}
+      />
+
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: SITE.url, position: 1 },
+          { name: 'Market Intelligence', url: `${SITE.url}/market-intelligence`, position: 2 },
+          { name: 'January 2026', url: `${SITE.url}/market-intelligence/january-2026`, position: 3 },
+        ]}
       />
 
       <Breadcrumbs />

@@ -20,6 +20,12 @@ export async function generateMetadata(): Promise<Metadata> {
         'Data-driven investment analysis tools and market intelligence for Lincoln, NE rental property investors.',
       url: `${SITE.url}/invest-in-lincoln`,
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Invest in Lincoln | Lincoln Property Intelligence',
+      description:
+        'Data-driven investment analysis tools and market intelligence for Lincoln, NE rental property investors.',
+    },
   };
 }
 

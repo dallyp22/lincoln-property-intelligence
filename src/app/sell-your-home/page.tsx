@@ -20,6 +20,12 @@ export async function generateMetadata(): Promise<Metadata> {
         'Data-driven tools and inspection-informed advisory to help Lincoln homeowners sell with confidence.',
       url: `${SITE.url}/sell-your-home`,
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Sell Your Home | Lincoln Property Intelligence',
+      description:
+        'Data-driven tools and inspection-informed advisory to help Lincoln homeowners sell with confidence.',
+    },
   };
 }
 

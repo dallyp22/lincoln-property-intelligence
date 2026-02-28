@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllNeighborhoods, getNeighborhoodGeoJson } from '@/lib/data/neighborhoods';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
+import { BreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd';
 import { PlaceJsonLd } from '@/components/seo/PlaceJsonLd';
 import { NeighborhoodExplorerWrapper } from '@/components/map/NeighborhoodExplorerWrapper';
 import { Badge } from '@/components/ui/Badge';
@@ -18,6 +19,12 @@ export const metadata: Metadata = {
       'Interactive map of Lincoln, NE neighborhoods with real-time market data, school ratings, and expert inspection insights.',
     url: `${SITE.url}/neighborhoods`,
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Lincoln Neighborhood Explorer | Lincoln Property Intelligence',
+    description:
+      'Interactive map of Lincoln, NE neighborhoods with market data, median prices, and inspection insights.',
+  },
 };
 
 export default async function NeighborhoodsPage() {
@@ -28,6 +35,12 @@ export default async function NeighborhoodsPage() {
 
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: SITE.url, position: 1 },
+          { name: 'Neighborhoods', url: `${SITE.url}/neighborhoods`, position: 2 },
+        ]}
+      />
       <PlaceJsonLd
         name="Lincoln, Nebraska"
         description="Capital city of Nebraska with diverse neighborhoods offering a range of housing styles, price points, and community character."

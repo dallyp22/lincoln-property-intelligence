@@ -44,7 +44,9 @@ function useAnimatedCounter(
   format: StatFormat,
   duration = 2000
 ): string {
-  const [display, setDisplay] = useState('0');
+  const [display, setDisplay] = useState(
+    () => formatStatValue(target, format) + formatStatSuffix(format)
+  );
   const frameRef = useRef<number>(0);
   const startRef = useRef<number | null>(null);
 
@@ -150,7 +152,7 @@ export function Hero({ heroStats }: HeroProps) {
           <div className="relative h-20 w-20 overflow-hidden rounded-full border-2 border-secondary-400/60 shadow-lg shadow-black/20 sm:h-24 sm:w-24">
             <Image
               src="/images/team/marion-shawndel-polivka.jpg"
-              alt={`${AGENTS.marion.name} & ${AGENTS.shawndel.name}`}
+              alt={`${AGENTS.marion.name} and ${AGENTS.shawndel.name} — Real Estate Agents, Home Design Real Estate Group of HOME Real Estate, Lincoln Nebraska`}
               fill
               className="object-cover"
               sizes="96px"
